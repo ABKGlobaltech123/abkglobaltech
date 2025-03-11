@@ -46,7 +46,7 @@ nav ul li a {
     transition: color 0.3s ease, transform 0.3s ease;
 }
 nav ul li a:hover {
-    color: #007bff; /* Blue color for hover */
+    color: red; /* Blue color for hover */
     transform: translateY(-5px); /* Move up on hover */
 }
 nav ul li ul {
