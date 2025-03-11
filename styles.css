@@ -152,3 +152,32 @@ footer {
     font-weight: bold;
     font-size: 18px;
 }
+nav ul ul {
+    display: none;
+    position: left;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 30px; /* Increased padding for the dropdown */
+}
+
+nav ul ul li {
+    display: block;
+}
+
+nav ul ul li p {
+    padding: 20px; /* Increased padding for the content within the dropdown */
+    margin: 0; /* Remove default margins */
+    text-align: left;
+    padding-left: 20px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li a.dropdown-arrow:after {
+    content: ' ▼';
+}
