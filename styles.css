@@ -119,7 +119,7 @@ nav ul li a:hover {
 .container h1 {
     font-size: 3em; /* Adjust as needed */
     font-weight: bold;
-    color: #007bff; /* white color */
+    color: white; /* white color */
     margin-bottom: 5px; /* Space between h1 and h2 */
     white-space: nowrap; /* Prevent wrapping */
 }
