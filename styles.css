@@ -120,12 +120,12 @@ nav ul li a:hover {
     font-size: 3em; /* Adjust as needed */
     font-weight: bold;
     color: white; /* white color */
-    margin-bottom: 5px; /* Space between h1 and h2 */
+    margin-bottom: 10px; /* Space between h1 and h2 */
     white-space: nowrap; /* Prevent wrapping */
 }
 
 .container h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
     color: white;
     margin-bottom: 5px; /* Space between h2 and p */
