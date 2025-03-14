@@ -202,16 +202,16 @@ body, html {
 }
 @keyframes changeBackground {
     0% {
-        background-image: url('photo1.avif');
+        background-image: url('images/photo1.avif');
     }
     25% {
-        background-image: url('photo2.avif');
+        background-image: url('images/photo2.avif');
     }
     50% {
-        background-image: url('photo3.avif');
+        background-image: url('images/photo3.avif');
     }
     100% {
-        background-image: url('photo4.avif');
+        background-image: url('images/photo1.avif');
     }
 }
 
@@ -284,7 +284,7 @@ body, html {
 
 /* Apply background ONLY to the contact page */
 body.contact-page {
-    background: url('photo4.avif') no-repeat center center fixed;
+    background: url('images/photo4.avif') no-repeat center center fixed;
     background-size: cover;
     height: 100vh; /* Ensures full viewport height */
     width: 100vw;  /* Ensures full viewport width */
