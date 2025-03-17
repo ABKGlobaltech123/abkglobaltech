@@ -729,7 +729,7 @@ text-align: left;
 
 /* Apply background ONLY to the contact page */
 body.contact-page {
-    background: url("C:/Users/vinee/Downloads/test/New folder/test4/Untitled Project.jpg") no-repeat center center fixed;
+    background: url('images/photo4.avif') no-repeat center center fixed;
     background-size: cover;
     height: 50vh; /* Ensures full viewport height */
     width: 100vw;  /* Ensures full viewport width */
